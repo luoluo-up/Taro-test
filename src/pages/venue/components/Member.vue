@@ -8,7 +8,6 @@
           <div class="name">{{ item.name }}</div>
           <div class="trade">{{ item.trade }}</div>
         </div>
-
         <div class="trade-time">
           <div class="price">{{ item.price }}</div>
 
@@ -27,6 +26,7 @@
 <script setup lang="ts">
 import Taro from "@tarojs/taro";
 
+// 定义组件属性
 const props = defineProps({
   memberList: {
     type: Array as () => Array<{
@@ -44,6 +44,7 @@ const props = defineProps({
   },
 });
 
+// 处理预约点击事件
 const handleAppointment = (item: any) => {
   Taro.showToast({
     title: `预约${item.name}成功！`,
@@ -104,7 +105,6 @@ const handleAppointment = (item: any) => {
         text-align: right;
         min-width: 120px;
 
-
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -135,6 +135,7 @@ const handleAppointment = (item: any) => {
 
             &:active {
               background-color: #c0392b;
+            }
           }
         }
       }
