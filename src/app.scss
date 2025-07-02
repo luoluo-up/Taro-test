@@ -1,0 +1,70 @@
+/* app.scss - Reset CSS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  background: #fff;
+  color: #222;
+  line-height: 1.5;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+address,
+cite,
+dfn,
+em,
+i {
+  font-style: normal;
+}
+
+strong,
+b {
+  font-weight: bold;
+}

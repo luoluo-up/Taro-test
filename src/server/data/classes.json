@@ -1,0 +1,23 @@
+[
+  {
+    "class": "增肌MAX",
+    "name": "大敬",
+    "description": "全身增肌打造好身材",
+    "price": "￥200",
+    "img": "images/venue/user3.png"
+  },
+  {
+    "class": "瑜伽放松",
+    "name": "心妮",
+    "description": "舒缓身心，放松肌肉",
+    "price": "￥150",
+    "img": "images/venue/user4.png"
+  },
+  {
+    "class": "羽毛球初级班",
+    "name": "苏苏",
+    "description": "学习羽毛球基础技巧",
+    "price": "￥100",
+    "img": "images/venue/user5.png"
+  }
+]
